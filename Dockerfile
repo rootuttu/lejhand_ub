@@ -67,4 +67,4 @@ RUN mkdir /root/railwaysuck/bin/
 WORKDIR /root/railwaysuck/
 RUN chmod +x /usr/local/bin/*
 RUN pip3 install -r requirements.txt
-CMD ["bash","./FIREX/start.sh"]
+CMD ["bash","./LEGENDBOT/start.sh"]
