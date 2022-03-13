@@ -30,13 +30,13 @@ class Development(Config):
   PRIVATE_GROUP_BOT_API_ID = -1001760151544
 
   # Custom Command Handler. 
-  COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r"."
+  COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r"\."
   #User Command Handler
-  HANDLER = os.environ.get("COMMAND_HAND_LER", r"."
+  HANDLER = os.environ.get("COMMAND_HAND_LER", r"\."
   # enter the userid of sudo users.
   # you can add multiple ids by separating them by space.
   # fill values in [] only.
   SUDO_USERS = []
 
   # command hanler for sudo users.
-  SUDO_COMMAND_HAND_LER = os.environ.get("SUDO_COMMAND_HAND_LER", r","
+  SUDO_COMMAND_HAND_LER = os.environ.get("SUDO_COMMAND_HAND_LER", r"\,"
